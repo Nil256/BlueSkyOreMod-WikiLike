@@ -2,16 +2,77 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	color: #035;
 }
+
+/* 共通構成 */
 
 body {
 	background-image: url("../img/background_sky.png");
 	background-attachment: fixed;
 	background-size: auto 100%;
 	background-repeat: repeat-x;
+
+	/* Noto Sans Japanese */
+	/* https://fonts.google.com/noto/specimen/Noto+Sans+JP?noto.query=Noto+Sans */
+	font-family: "Noto Sans JP", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 }
 
 header {
 	text-align: center;
 	padding: 1em 0;
+}
+
+.img-title {
+	max-width: 100%;
+}
+
+.tile-container {
+	margin: 0 1em 1em;
+	border: 1px solid rgb(0 175 255);
+	border-radius: 7px;
+	background-color: rgb(0 175 255 / 0.5);
+	padding: 2em;
+}
+
+a:visited {
+	color: #000;
+}
+
+/* タイポグラフィ */
+
+.quote {
+	margin: 1em 0 1em 0.5em;
+	border-left: 1px solid #047;
+	padding: 0.5em 0 0.5em 0.5em;
+	font-style: italic;
+}
+
+.quote-text {
+}
+
+.quote-reference:before {
+	content: "ー";
+}
+
+.quote-reference {
+	text-align: right;
+	font-size: 0.8em;
+}
+
+a.temp {
+	display: inline-block;
+	color: #f33;
+	cursor: not-allowed;
+}
+
+/* レスポンシブ対応 */
+
+@media screen and (max-width:768px) {
+	.tile-container {
+		padding: 1em;
+	}
 }

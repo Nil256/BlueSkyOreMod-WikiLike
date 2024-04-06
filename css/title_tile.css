@@ -1,0 +1,57 @@
+/* タイトルタイル (トップページのみ) */
+
+.tile-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tile-title {
+	margin-bottom: 7px;
+	min-width: 100%;
+	border: 7px solid rgb(0 175 255);
+	border-radius: 7px;
+	padding: 1em;
+	text-align: center;
+}
+
+.tile-title > p {
+	font-size: 0.8em;
+}
+
+.tile-title > p:first-child {
+	font-size: 1.5em;
+}
+
+.version-container {
+	margin-top: 1em;
+	display: flex;
+	justify-content: center;
+}
+
+.version-item {
+	display: flex;
+	align-items: center;
+}
+
+.version-img {
+	margin-right: 0.5em;
+}
+
+.version-text {
+	text-align: left;
+	font-size: 0.9em;
+	line-height: 120%;
+}
+
+.version-text-version {
+	font-size: 1.3em;
+}
+
+.version-t-version {
+	font-size: 0.8em;
+}
+
+.version-tml-version {
+	font-size: 0.8em;
+	line-height: 100%;
+}
