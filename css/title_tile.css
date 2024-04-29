@@ -31,6 +31,11 @@
 .version-item {
 	display: flex;
 	align-items: center;
+	margin-right: 1em;
+}
+
+.version-item:last-child {
+	margin-right: 0;
 }
 
 .version-img {
