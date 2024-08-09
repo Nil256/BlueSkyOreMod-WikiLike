@@ -16,3 +16,24 @@ th {
 td {
 	padding-left: 0.25em;
 }
+
+tr.checking > th {
+	color: #19699e;
+}
+tr.checking > td {
+	color: #19699e;
+}
+
+tr.unknown > th {
+	color: #3e8ec2;
+}
+tr.unknown > td {
+	color: #3e8ec2;
+}
+
+tr.cannot > th {
+	color: #e07575;
+}
+tr.cannot > td {
+	color: #e07575;
+}
